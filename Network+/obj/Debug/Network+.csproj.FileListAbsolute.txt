@@ -21,3 +21,26 @@ C:\Users\Tyler\SkyDrive\Software Archive\Network+\Network+\obj\Debug\resources.r
 C:\Users\Tyler\SkyDrive\Software Archive\Network+\Network+\obj\Debug\pri.resfiles
 C:\Users\Tyler\SkyDrive\Software Archive\Network+\Network+\obj\Debug\LanguageQualifiers.txt
 C:\Users\Tyler\SkyDrive\Software Archive\Network+\Network+\obj\Debug\ProjectArchitectures.txt
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\bin\Debug\Network+.exe
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\bin\Debug\Network+.pdb
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\bin\Debug\resources.pri
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\bin\Debug\AppxManifest.xml
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\bin\Debug\Network+.build.appxrecipe
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\App.g.i.cs
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\App.g.cs
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\MainPage.g.i.cs
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\MainPage.g.cs
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\App.xaml
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\MainPage.xaml
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\Network+.exe
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\Network+.pdb
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\priconfig.xml
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\layout.resfiles
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\resources.resfiles
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\pri.resfiles
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\LanguageQualifiers.txt
+C:\Users\Griffin\Documents\Visual Studio 2012\Projects\Network_Windows8\Network+\obj\Debug\ProjectArchitectures.txt

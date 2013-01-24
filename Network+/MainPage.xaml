@@ -37,24 +37,37 @@
             <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
         
-        <!-- UI for Main Content goes here -->
-        <ScrollViewer Grid.Row="1" Margin="0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" ZoomMode="Disabled">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,0,0,0" Height="515" Width="Auto">
-                <!-- Vertical StackPanel Left-side of the screen -->
-                <StackPanel x:Name="sp_FirstColumn" Height="515">
-                    <Grid HorizontalAlignment="Left" Height="470" Margin="0" Width="512" VerticalAlignment="Top">
-                        
-                    </Grid>
-                </StackPanel>
-
-                <!-- Vertical StackPanel right-side of the screen -->
-                <StackPanel x:Name="sp_SecondColumn" Height="515" Margin="57,0,0,0">
-                    <Grid >
+            <!-- UI for Main Content goes here -->
+            <ScrollViewer Grid.Column="0" Grid.ColumnSpan="2"  Grid.Row="1" HorizontalScrollBarVisibility="Auto" VerticalScrollMode="Disabled" ZoomMode="Disabled">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width=".5*"/>
+                    <ColumnDefinition Width=".5*"/>
+                </Grid.ColumnDefinitions>
+                    <!-- Vertical StackPanel Left-side of the screen -->
+                    <StackPanel x:Name="sp_FirstColumn" Grid.Column="0" Grid.Row="1">
+                       
+                    <ScrollViewer x:Name="leftGridScrollViewer" HorizontalScrollMode="Disabled" VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Visible">
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="Here is a vertically scrolled column" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center"/>
+                            <TextBlock Text="Here is a vertically scrolled column" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center"/>
+                            <TextBlock Text="Here is a vertically scrolled column" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center"/>
+                            <TextBlock Text="Here is a vertically scrolled column" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center"/>
+                            <TextBlock Text="Here is a vertically scrolled column" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center"/>
+                            <TextBlock Text="Here is a vertically scrolled column" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center"/>
+                            <TextBlock Text="Here is a vertically scrolled column" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center"/>
+                            <TextBlock Text="Here is a vertically scrolled column" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center"/>
+                            <Button Content="You can put whatever you want in here" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                        </StackPanel>
+                    </ScrollViewer>
                     
-                    </Grid>
                 </StackPanel>
-            </StackPanel>
+                    <StackPanel x:Name="sp_SecondColumn" Margin="57,0,0,0" Grid.Column="1">
+                        <TextBlock Text="Right grid" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center"/>
+                    </StackPanel>
+            </Grid>
         </ScrollViewer>
+        
         
         
         <VisualStateManager.VisualStateGroups>

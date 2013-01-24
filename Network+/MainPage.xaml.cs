@@ -24,6 +24,12 @@ namespace Network_
         public MainPage()
         {
             this.InitializeComponent();
+
+            // This trick is new to me but very useful. 
+            var bounds = Window.Current.Bounds;     // Here I get the bounds of the screen 
+            double height = bounds.Height;      // Height of the screen 
+            double width = bounds.Width;        // Width of screen 
+            leftGridScrollViewer.Height = height;   // I set the height of the vertical scrollviewer in the left column to Page Height
         }
 
         /// <summary>
